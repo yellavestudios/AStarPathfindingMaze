@@ -106,6 +106,7 @@ public class FindPathAStar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //press W to instantiate markers
         if (Input.GetKeyDown(KeyCode.W)) BeginSearch(); 
     }
 }
